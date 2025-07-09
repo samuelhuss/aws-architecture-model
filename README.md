@@ -9,7 +9,6 @@ Este projeto tem como objetivo criar um pipeline completo para reconhecimento au
 - [Geração do Dataset Sintético para YOLO](#geração-do-dataset-sintético-para-yolo)
 - [Treinamento do Modelo YOLO](#treinamento-do-modelo-yolo)
 - [Validação e Inferência](#validação-e-inferência)
-- [Dicas e Próximos Passos](#dicas-e-próximos-passos)
 - [Aprendizados e Experimentos](#aprendizados-e-experimentos)
 
 ---
@@ -116,20 +115,9 @@ A plataforma automatiza o processo de:
 
 ---
 
-## Dicas e Próximos Passos
-
-- **Aumente o dataset sintético**: Gere milhares de imagens, varie tamanho, rotação, fundo, sobreposição.
-- **Inclua imagens reais**: Ajuda o modelo a generalizar para casos do mundo real.
-- **Reduza o número de classes** para experimentos rápidos.
-- **Visualize as predições** para garantir que as labels estão corretas.
-- **Expanda para GCP/Azure**: Basta adaptar os scripts para os componentes dessas clouds.
-- **Implemente um pipeline de inferência**: Automatize o upload, detecção e geração de relatórios (ex: STRIDE).
-
----
-
 ## Aprendizados e Experimentos
 
-Durante o desenvolvimento, realizei dois experimentos principais:
+Durante o desenvolvimento, realizamos dois experimentos principais:
 
 1. **Dataset grande, pouca variação:**
    - Treinei o YOLO com centenas de classes e imagens sintéticas com pouca variação (fundo branco, tamanhos e posições fixas, sem rotação ou ruído).
@@ -145,6 +133,3 @@ Durante o desenvolvimento, realizei dois experimentos principais:
 - O balanceamento entre número de classes e exemplos por classe é essencial para bons resultados.
 
 ---
-
-## Contato
-Dúvidas ou sugestões? Fique à vontade para abrir uma issue ou contribuir! 
