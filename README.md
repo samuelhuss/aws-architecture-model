@@ -1,4 +1,4 @@
-# Plataforma de Reconhecimento de Componentes de Arquitetura em Diagramas (AWS)
+# Reconhecimento de Componentes de Arquitetura em Diagramas
 
 Este projeto tem como objetivo criar um pipeline completo para reconhecimento automático de componentes de arquitetura (AWS) em diagramas, utilizando visão computacional e modelos de detecção de objetos (YOLO).
 
